@@ -29,7 +29,7 @@ namespace rcssanalyzer
         {
             try
             {
-                validate(data);
+                Validate(data);
 
                 // 必要なデータのみ保存
                 // 必要に応じて追加する
@@ -82,7 +82,7 @@ namespace rcssanalyzer
         /// バリデーション
         /// </summary>
         /// <param name="d"></param>
-        private void validate(Hashtable d)
+        private void Validate(Hashtable d)
         {
             // キーの値が保存されているか確認する
             if (d.ContainsKey("unum") &&
