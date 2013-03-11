@@ -37,10 +37,7 @@ namespace rcssanalyzer
             }
             catch
             {
-<<<<<<< HEAD
                 throw;
-=======
->>>>>>> remotes/rcssanalyzer/master
             }
         }
 
